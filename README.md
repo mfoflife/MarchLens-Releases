@@ -2,9 +2,11 @@
 
 **从可见行军外观与玩家情报库，辅助判断对方可能使用的队伍。**
 
-Windows / MuMu 本地测试版 **v0.6.1-beta.1**。识别七种兵种组合、读取敌方昵称，再展示你导入的候选阵容与战法。无需安装 Python，不需要购买模型 API。
+Windows / MuMu 本地测试版 **v0.6.1-beta.2**。识别七种兵种组合、读取敌方昵称，再展示你导入的候选阵容与战法。无需安装 Python，不需要购买模型 API。
 
 [下载 Windows 测试版](https://github.com/mfoflife/MarchLens-Releases/releases)
+
+**请使用 beta.2 或更新版。** beta.1 存在首次启动失败问题，已修复。旧版用户请完整下载新版解压到新目录，再按备份恢复步骤迁移；不要混装核心文件。
 
 本仓库用于发布软件下载与使用文档，不包含核心开发源码、原始训练权重或任何玩家情报库。**请下载 Releases 中的 Windows 软件包，不要下载 GitHub 自动生成的 Source code。**
 
@@ -27,7 +29,7 @@ Windows / MuMu 本地测试版 **v0.6.1-beta.1**。识别七种兵种组合、�
 在 ZIP 所在目录打开 PowerShell：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\MarchLens-0.6.1-beta.1-windows-x64.zip'
+Get-FileHash -Algorithm SHA256 '.\MarchLens-0.6.1-beta.2-windows-x64.zip'
 ```
 
 与同版本 `.sha256` 比较。解压后的 `MANIFEST.json` 列出包内文件校验值。
